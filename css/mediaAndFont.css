@@ -1,0 +1,50 @@
+@font-face {
+    font-family: bauhaus;
+    src: url("../font/bauhaus.ttf");
+}
+@font-face {
+    font-family: bebas_neue_book;
+    src: url("../font/bebas_neue_book.ttf");
+}
+@font-face {
+    font-family: bebas_neue_light;
+    src: url("../font/bebas_neue_light.ttf");
+}
+@media screen and (max-width: 1921px){
+    .head-h2{
+       font-size: 3em;
+    }
+    .head-h3{
+       font-size: 2em;
+    }
+    .slides h1{
+       font-size: 2em;
+    }
+    .slider-container{
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 50%;
+        height: 11%;
+    }
+    h1{
+        font-family: bauhaus, sans-serif;
+        font-size: 3em;
+    }
+    h2{
+        font-family: bebas_neue_book, sans-serif;
+        font-size: 2.5em;
+    }
+    h3{
+        font-family: bebas_neue_light, sans-serif;
+        font-size: 2em;
+    }
+    h4{
+        font-family: bebas_neue_light, sans-serif;
+        font-size: 1.5em;
+    }
+    .head-button{
+        background-color: #d80027;
+        width: 60%;
+        padding: 4%;
+        margin: 3%;
+    }
+}
